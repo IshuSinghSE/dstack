@@ -126,7 +126,7 @@ func main() {
 
 					args.Runner.TempDir = "/tmp/runner"
 					args.Runner.HomeDir = "/root"
-					args.Runner.WorkingDir = "/workflow"
+					args.Runner.WorkingDir = "/repo"
 
 					var err error
 

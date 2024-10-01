@@ -60,7 +60,7 @@ Launching `vscode`...
 ---> 100%
 
 To open in VS Code Desktop, use this link:
-  vscode://vscode-remote/ssh-remote+vscode/workflow
+  vscode://vscode-remote/ssh-remote+vscode/repo
 ```
 
 </div>
@@ -71,7 +71,7 @@ To avoid uploading large files, ensure they are listed in `.gitignore`.
 ### VS Code
 
 To open the dev environment in your desktop IDE, use the link from the output 
-(such as `vscode://vscode-remote/ssh-remote+fast-moth-1/workflow`).
+(such as `vscode://vscode-remote/ssh-remote+fast-moth-1/repo`).
 
 ![](../assets/images/dstack-vscode-jupyter.png){ width=800 }
 

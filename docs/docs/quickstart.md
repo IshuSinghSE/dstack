@@ -71,7 +71,7 @@ Your folder can be a regular local folder or a Git repo.
     ---> 100%
     
     To open in VS Code Desktop, use this link:
-      vscode://vscode-remote/ssh-remote+vscode/workflow
+      vscode://vscode-remote/ssh-remote+vscode/repo
     ```
     
     </div>

@@ -421,8 +421,8 @@ and its contents will persist across runs.
 
 !!! info "Limitations"
     When you're running a dev environment, task, or service with `dstack`, it automatically mounts the project folder contents
-    to `/workflow` (and sets that as the current working directory). Right now, `dstack` doesn't allow you to 
-    attach volumes to `/workflow` or any of its subdirectories.
+    to `/repo` (and sets that as the current working directory). Right now, `dstack` doesn't allow you to 
+    attach volumes to `/repo` or any of its subdirectories.
 
 The `task` configuration type supports many other options. See below.
 

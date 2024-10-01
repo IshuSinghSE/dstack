@@ -37,6 +37,6 @@ class VSCodeDesktop:
         return [
             "echo To open in VS Code Desktop, use link below:",
             "echo ''",
-            f"echo '  vscode://vscode-remote/ssh-remote+{self.run_name}/workflow'",  # TODO use $REPO_DIR
+            f"echo '  vscode://vscode-remote/ssh-remote+{self.run_name}/repo'",  # TODO use $REPO_DIR
             "echo ''",
         ]

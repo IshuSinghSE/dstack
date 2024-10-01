@@ -315,7 +315,7 @@ def get_docker_commands(
     commands += [
         f"curl --connect-timeout 60 --max-time 240 --retry 1 --output {runner} {url}",
         f"chmod +x {runner}",
-        f"{runner} --log-level 6 start --http-port 10999 --temp-dir /tmp/runner --home-dir /root --working-dir /workflow",
+        f"{runner} --log-level 6 start --http-port 10999 --temp-dir /tmp/runner --home-dir /root --working-dir /repo",
     ]
     return commands
 

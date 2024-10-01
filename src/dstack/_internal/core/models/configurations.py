@@ -93,7 +93,7 @@ class BaseRunConfiguration(CoreModel):
         Field(
             description=(
                 "The path to the working directory inside the container."
-                " It's specified relative to the repository directory (`/workflow`) and should be inside it."
+                " It's specified relative to the repository directory (`/repo`) and should be inside it."
                 ' Defaults to `"."` '
             )
         ),

@@ -88,7 +88,7 @@ $ dstack run .
 Starting SSH tunnel...
 
 To open in VS Code Desktop, use one of these link:
-  vscode://vscode-remote/ssh-remote+honest-jellyfish-1/workflow
+  vscode://vscode-remote/ssh-remote+honest-jellyfish-1/repo
   
 To exit, press Ctrl+C.
 ```
